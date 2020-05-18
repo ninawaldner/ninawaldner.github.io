@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(16, 95, 95);
+    padding-bottom: 20px;
+    color:whitesmoke; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 12px 20px 35px 10px;
+    font-size: medium; 
+  }
+
+ h1, h2, h3, h4, h5, h6 {
+    color: white; 
+    text-align: center; 
+    text-emphasis: bold;
+    font-family: Verdana, sans-serif; 
+  
+  }
+
+  h2.header {
+      text-align: center; 
+  }
+
+  div.box {
+    text-align: center; 
+    background-color:  rgb(10, 71, 71);
+    color: whitesmoke; 
+    padding-left: 50px;
+    padding-right: 50px; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+  } 
+
+  h4 {
+    text-align: center; 
+    font-size: medium;
+  }
+
+  ul {
+    font-size: medium;
+    color: whitesmoke;
+  }
+
+  ol {
+    font-size: medium;
+  }
+
+  a {
+    color: whitesmoke; 
+  }
+
+
+  a:hover {
+    color:  rgb(9, 58, 58);
+    text-decoration: transparent;
+  }
+
+  div.light-box {
+    text-align: center; 
+    background-color:  rgba(7, 124, 124, 0.74);
+  }
+
+  img {
+    color: whitesmoke; 
+    text-align: center;
+  }
+
+p.quote {
+  font-style: italic;
+  color: whitesmoke;
+  text-align: center;
+}
+
+p.description {
+  text-align: center;
+}
+
+div.lightbox {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+ul.bullet{
+  color: whitesmoke; 
+  text-align: left;
+}
+
