@@ -59,9 +59,13 @@ body {
     background-color:  rgba(7, 124, 124, 0.74);
   }
 
-  img {
+  img.image {
     color: whitesmoke; 
     text-align: center;
+    float:left; 
+    width:10%; 
+    height:10%;
+
   }
 
 p.quote {
@@ -80,6 +84,17 @@ div.lightbox {
   padding-bottom: 50px;
   padding-left: 50px;
 }
+
+div.topics {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  text-align: center; 
+  background-color:  rgba(7, 124, 124, 0.74);
+
+}
+
 ul.bullet{
   color: whitesmoke; 
   text-align: left;
