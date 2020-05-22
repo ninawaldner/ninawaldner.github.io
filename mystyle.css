@@ -3,14 +3,14 @@ body {
     padding-bottom: 20px;
     color:whitesmoke; 
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 12px 20px 35px 10px;
+    margin: 30px 30px 35px 30px;
     font-size: medium; 
   }
 
  h1, h2, h3, h4, h5, h6 {
     color: white; 
     text-align: center; 
-    text-emphasis: bold;
+    font-weight: bold; 
     font-family: Verdana, sans-serif; 
   
   }
@@ -48,7 +48,6 @@ body {
     color: whitesmoke; 
   }
 
-
   a:hover {
     color:  rgb(9, 58, 58);
     text-decoration: transparent;
@@ -59,12 +58,26 @@ body {
     background-color:  rgba(7, 124, 124, 0.74);
   }
 
-  img.image {
+  img {
     color: whitesmoke; 
     text-align: center;
-    float:left; 
-    width:10%; 
-    height:10%;
+    max-width:40%; 
+    max-height: 20%;
+    padding-right: 40px;
+  }
+
+  img.image1 {
+    max-width: 20%; 
+    max-height: 55%;
+    padding-right: 10px;
+    float: left; 
+  }
+
+  img.image2 {
+    max-width: 20%; 
+    max-height: 50%;
+    padding-right: 10px;
+    float: left; 
   }
 
 p.quote {
@@ -78,24 +91,44 @@ p.description {
 }
 
 div.lightbox {
+  text-align: center;
   padding-top: 50px;
   padding-right: 50px;
   padding-bottom: 50px;
   padding-left: 50px;
 }
-
-div.topics {
-  padding-top: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
-  padding-left: 50px;
-  text-align: center; 
-  background-color:  rgba(7, 124, 124, 0.74);
-
-}
-
 ul.bullet{
   color: whitesmoke; 
   text-align: left;
 }
 
+a.footer {
+  background-color: rgba(7, 124, 124, 0.74);
+  
+}
+
+p.footer {
+  text-align: right;
+}
+
+div.flex-container {
+  background-color:  rgba(7, 124, 124, 0.74);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aligncenter {
+  color: whitesmoke; 
+  text-align: center;
+  max-width:40%; 
+  max-height: 40%;
+  padding-right: 10px;
+}
+
+div.content {
+  background-color:  rgba(7, 87, 87, 0.74);
+}
+
+div.content-details {
+  background-color:  rgb(10, 71, 71);
+}
